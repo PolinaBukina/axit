@@ -13,8 +13,91 @@
 <body>
     <main>
         <!-- <div class="container"> -->
+        <header>
+            <nav class="navbar">
+                <div class="navbar-container">
+                    <div class="logo">
+                        <img src="./assets/image/AXIT.svg" alt="">
+                        <img src="./assets/image/AXIT-1.svg" alt="">
+                    </div>
+                    <div class="navbar-wrap">
+                        <ul class="links">
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#pricing">Pricing</a></li>
+                            <li><a href="#reviews">Reviews</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
 
-            <section class="tabs">
+        <section class="banner">
+            <div class="banner-container">
+                <div class="banner-header">
+                    <div class="banner-img">
+                        <img src="./assets/image/AXIT.svg" alt="">
+                        <img src="./assets/image/AXIT-1.svg" alt="">
+                    </div>
+                    <div class="banner-text">
+                        <h1 class="banner-header__h1">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
+                        <div class="banner-header__line"></div>
+                        <p class="banner-header__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        <input class="banner-header__button" type="button" value="Download"/>
+                    </div>
+                </div>
+                <div class="banner-form">
+                    <form action="">
+                        <p class="banner-form__p">Try Your <span> FREE </span> Trial Today</p>
+                        <div class="banner-form__area">
+                            <input type="text" class="name textform banner-form__text" placeholder="Name">
+                            <input type="email" class="email textform banner-form__text" placeholder="Email">
+                            <input type="password" class="password textform banner-form__text" placeholder="Password">
+                            <input type="submit" value="Get Started" class="banner-form__button">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="social">
+            <div class="social-container">
+                <div class="social-text">
+                    <h1 class="social-text__h1">
+                        Social Media
+                    </h1>
+                    <p class="social-text__p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
+                    </p>
+                </div>
+                <div class="social-icons">
+                    <!-- <button class="slider__btn_face"> -->
+                        <i class="fa-brands fa-facebook fa-4x"></i>
+                    <!-- </button> -->
+                    <!-- <button class="slider__btn_twi"> -->
+                        <i class="fa-brands fa-twitter fa-4x"></i>
+                    <!-- </button> -->
+                    <!-- <button class="slider__btn_link"> -->
+                        <i class="fa-brands fa-linkedin fa-4x"></i>
+                    <!-- </button> -->
+                    <!-- <button class="slider__btn_pin"> -->
+                        <i class="fa-brands fa-pinterest fa-4x"></i>
+                    <!-- </button> -->
+                    <!-- <button class="slider__btn_inst"> -->
+                        <i class="fa-brands fa-instagram fa-4x"></i>
+                    <!-- </button> -->
+                    <!-- <button class="slider__btn_git"> -->
+                        <i class="fa-brands fa-github fa-4x"></i>
+                    <!-- </button> -->
+                    <!-- <button class="slider__btn_rss"> -->
+                        <i class="fa-solid fa-rss fa-4x"></i>
+                    <!-- </button>  -->
+                </div>
+            </div>
+        </section>
+
+            <section class="tabs" id="features">
                 <div class="tab-wrapper">
                     <input type="radio" name="action" id="tab1" class="tab-wrapper__tab-action" checked/>
                     <input type="radio" name="action" id="tab2" class="tab-wrapper__tab-action"/>
@@ -81,7 +164,7 @@
                 </div>
             </section>
 
-            <section class="awesome">
+            <section class="awesome" id="about">
                 <div class="awesome-text">
                     <h2>WHY THIS IS AWESOME</h2>
                     <div class="line"></div>
@@ -126,8 +209,8 @@
                 </div>
             </section>
 
-            <div class="color">
-                <section class="pricing">
+            <div class="color" >
+                <section class="pricing" id="pricing">
                         <div class="section__header header">
                             <h1 class="header__h1">pricing options</h1>
                             <div class="header__line"></div>
@@ -173,7 +256,7 @@
                 </section>
             </div>
 
-            <section class="customers">
+            <section class="customers" id="reviews">
                 <div class="section__header header">
                     <h1 class="header__h1">what our customers are saying</h1>
                     <div class="header__line"></div>
@@ -241,7 +324,7 @@
                 </div>
             </section>
 
-            <section class="contact">
+            <section class="contact" id="contact">
                 <div class="section__header header">
                     <h1 class="header__h1">contact us</h1>
                     <div class="header__line"></div>
@@ -265,33 +348,33 @@
         <!-- </div> -->
 
         <footer>
-                <div class="footer-social">
-                    <button class="slider__btn_face">
-                        <i class="fa-brands fa-facebook fa-3x"></i>
-                    </button>
-                    <button class="slider__btn_twi">
-                        <i class="fa-brands fa-twitter fa-3x"></i>
-                    </button>
-                    <button class="slider__btn_link">
-                        <i class="fa-brands fa-linkedin fa-3x"></i>
-                    </button>
-                    <button class="slider__btn_pin">
-                        <i class="fa-brands fa-pinterest fa-3x"></i>
-                    </button>
-                    <button class="slider__btn_inst">
-                        <i class="fa-brands fa-instagram fa-3x"></i>
-                    </button>
-                    <button class="slider__btn_git">
-                        <i class="fa-brands fa-github fa-3x"></i>
-                    </button>
-                    <button class="slider__btn_rss">
-                        <i class="fa-solid fa-rss fa-3x"></i>
-                    </button> 
-                </div>
-                <div class="footer-bottom">
-                    <p class="footer-bottom__p">© 2015 Axure Themes</p>
-                </div>
-            </footer>
+            <div class="footer-social">
+                <button class="slider__btn_face">
+                    <i class="fa-brands fa-facebook fa-3x"></i>
+                </button>
+                <button class="slider__btn_twi">
+                    <i class="fa-brands fa-twitter fa-3x"></i>
+                </button>
+                <button class="slider__btn_link">
+                    <i class="fa-brands fa-linkedin fa-3x"></i>
+                </button>
+                <button class="slider__btn_pin">
+                    <i class="fa-brands fa-pinterest fa-3x"></i>
+                </button>
+                <button class="slider__btn_inst">
+                    <i class="fa-brands fa-instagram fa-3x"></i>
+                </button>
+                <button class="slider__btn_git">
+                    <i class="fa-brands fa-github fa-3x"></i>
+                </button>
+                <button class="slider__btn_rss">
+                    <i class="fa-solid fa-rss fa-3x"></i>
+                </button> 
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-bottom__p">© 2015 Axure Themes</p>
+            </div>
+        </footer>
 
     </main>
 </body>
