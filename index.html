@@ -24,10 +24,10 @@
                 </label>
 
                 <div class="navbar-container">
-                    <div class="logo">
+                    <a href="#" class="logo" id="logo">
                         <img src="./assets/image/AXIT.svg" alt="">
                         <img src="./assets/image/AXIT-1.svg" alt="">
-                    </div>
+                    </a>
                     <div class="navbar-wrap">
                         <ul class="links">
                             <li><a href="#features">Features</a></li>
@@ -38,14 +38,39 @@
                         </ul>
                     </div>
                 </div>
+            </nav>            
 
-                <!-- <div class="navbar-container__mobile">
-                    <div class="logo">
-                        <img src="./assets/image/AXIT.svg" alt="">
-                        <img src="./assets/image/AXIT-1.svg" alt="">
-                    </div>
-                    <div class="navbar-wrap__mobile">
-                        <ul class="links">
+            <div class="navbar-container__mobile">
+                <div class="logo">
+                    <img src="./assets/image/AXIT.svg" alt="">
+                    <img src="./assets/image/AXIT-1.svg" alt="">
+                </div>
+                <div class="navbar-wrap__mobile">
+                    <ul class="links">
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#reviews">Reviews</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- <nav class="navbar">
+                <div class="container">
+                    <div class="navbar__wrap">
+                        <div class="hamb">
+                            <div class="hamb__field" id="hamb">
+                                <span class="bar"></span> 
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                            </div>
+                        </div>
+                        <a href="#" class="logo" id="logo">
+                            <img src="./assets/image/AXIT.svg" alt="">
+                            <img src="./assets/image/AXIT-1.svg" alt="">
+                        </a>
+                        <ul class="menu" id="menu">
                             <li><a href="#features">Features</a></li>
                             <li><a href="#about">About</a></li>
                             <li><a href="#pricing">Pricing</a></li>
@@ -53,11 +78,9 @@
                             <li><a href="#contact">Contact</a></li>
                         </ul>
                     </div>
-                </div> -->
+                </div> 
+            </nav> -->
 
-                
-
-            </nav>
         </header>
 
         <section class="banner">
@@ -71,7 +94,7 @@
                         <h1 class="banner-header__h1">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
                         <div class="banner-header__line"></div>
                         <p class="banner-header__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                        <input class="banner-header__button" type="button" value="Download"/>
+                        <input class="banner-header__button" type="button" value="Download" />
                     </div>
                 </div>
                 <div class="banner-form">
@@ -96,7 +119,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
                     </p>
                 </div>
-                <div class="social-icons">                
+                <div class="social-icons">
                     <i class="fa-brands fa-facebook fa-4x"></i>
                     <i class="fa-brands fa-twitter fa-4x"></i>
                     <i class="fa-brands fa-linkedin fa-4x"></i>
@@ -109,149 +132,82 @@
         </section>
 
         <section class="tabs" id="features">
-            <!-- <div class="tab-wrapper">
-                <input type="radio" name="action" id="tab1" class="tab-wrapper__tab-action" checked/>
-                <input type="radio" name="action" id="tab2" class="tab-wrapper__tab-action"/>
-                <input type="radio" name="action" id="tab3" class="tab-wrapper__tab-action"/>
-        
+            
+            <div class="tab-wrapper">
+                <input type="radio" name="action" id="tab1" class="tab-wrapper__tab-action" checked />
+                <input type="radio" name="action" id="tab2" class="tab-wrapper__tab-action" />
+                <input type="radio" name="action" id="tab3" class="tab-wrapper__tab-action" />
+
                 <label class="tab-wrapper__title label1" id="title1" for="tab1">Tab 1</label>
                 <label class="tab-wrapper__title label2" id="title2" for="tab2">Tab 2</label>
                 <label class="tab-wrapper__title label3" id="title3" for="tab3">Tab 3</label>
-        
-                <div class="tab-wrapper__content content1"> 
 
-                    <div class="tab-content">
-                        <div class="tab-content__text">
-                            <h1>Tabs with soft transitioning effect.</h1>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
-                                bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
-                                justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
-                                penatibus et magnis dis parturient montes.            
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
-                                bibendum laoreet. a                                    
-                            </p>
-                            <input class="tab-content__button" type="button" value="Download"/>
-                        </div>
-                        <div class="tab-content__image img">
-                            <img src="./assets/image/Rectangle 111.png"/>
-                        </div>
-                    </div>
-
-                </div> 
-                <div class="tab-wrapper__content content2">
-                    <div class="tab-content__text">
-                        <h1>Tabs with soft transitioning effect.</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
-                            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
-                            justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
-                            penatibus et magnis dis parturient montes.
-
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
-                            bibendum laoreet. b                                       
-                        </p>
-                        <input class="tab-content__button" type="button" value="Download"/>
-                    </div>
-                    <div class="tab-content__image img">
-                        <img src="./assets/image/Rectangle 111.png"/>
-                    </div>
-                </div>
-                <div class="tab-wrapper__content content3">
-                    <div class="tab-content__text">
-                        <h1>Tabs with soft transitioning effect.</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
-                            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
-                            justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
-                            penatibus et magnis dis parturient montes.
-
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
-                            bibendum laoreet. c                                     
-                        </p>                           
-                        <input class="tab-content__button" type="button" value="Download"/>
-                    </div>
-                    <div class="tab-content__image img">
-                        <img src="./assets/image/Rectangle 111.png"/>
-                    </div>
-                </div>                        
-            </div> -->
-
-            <div class="tab-wrapper">
-                <input type="radio" name="action" id="tab1" class="tab-wrapper__tab-action" checked/>
-                <input type="radio" name="action" id="tab2" class="tab-wrapper__tab-action"/>
-                <input type="radio" name="action" id="tab3" class="tab-wrapper__tab-action"/>
-        
-                <label class="tab-wrapper__title label1" id="title1" for="tab1">Tab 1</label>        
-                <label class="tab-wrapper__title label2" id="title2" for="tab2">Tab 2</label>
-                <label class="tab-wrapper__title label3" id="title3" for="tab3">Tab 3</label>
-        
                 <div class="tab-wrapper__content content1">
-        
+
                     <div class="content-wrapper">
                         <div class="content-wrapper__text">
                             <h1>Tabs with soft transitioning effect.</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
-                                bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
-                                justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
-                                penatibus et magnis dis parturient montes.
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                                    bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+                                    justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+                                    penatibus et magnis dis parturient montes.
 
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
-                                bibendum laoreet. a
-                            </p>
-                            <input class="tab-content__button" type="button" value="Download"/>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                                    bibendum laoreet. a
+                                </p>
+                                <input class="tab-content__button" type="button" value="Download" />
                         </div>
                         <div class="content-wrapper__image">
-                            <img src="./assets/image/Rectangle 111.png"/>
+                            <img src="./assets/image/Rectangle 111.png" />
                         </div>
                     </div>
-                    
+
                 </div>
                 <div class="tab-wrapper__content content2">
-        
+
                     <div class="content-wrapper">
                         <div class="content-wrapper__text">
                             <h1>Tabs with soft transitioning effect.</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
-                                bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
-                                justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
-                                penatibus et magnis dis parturient montes.
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                                    bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+                                    justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+                                    penatibus et magnis dis parturient montes.
 
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
-                                bibendum laoreet. b
-                            </p>
-                            <input class="tab-content__button" type="button" value="Download"/>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                                    bibendum laoreet. b
+                                </p>
+                                <input class="tab-content__button" type="button" value="Download" />
                         </div>
                         <div class="content-wrapper__image">
-                            <img src="./assets/image/Rectangle 111.png"/>
+                            <img src="./assets/image/Rectangle 111.png" />
                         </div>
                     </div>
-        
+
                 </div>
 
                 <div class="tab-wrapper__content content3">
-        
+
                     <div class="content-wrapper">
                         <div class="content-wrapper__text">
                             <h1>Tabs with soft transitioning effect.</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
-                                bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
-                                justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
-                                penatibus et magnis dis parturient montes.
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                                    bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+                                    justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+                                    penatibus et magnis dis parturient montes.
 
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
-                                bibendum laoreet. c
-                            </p>
-                            <input class="tab-content__button" type="button" value="Download"/>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                                    bibendum laoreet. c
+                                </p>
+                                <input class="tab-content__button" type="button" value="Download" />
                         </div>
                         <div class="content-wrapper__image">
-                            <img src="./assets/image/Rectangle 111.png"/>
+                            <img src="./assets/image/Rectangle 111.png" />
                         </div>
                     </div>
-        
+
                 </div>
             </div>
 
@@ -266,14 +222,14 @@
                 </h5>
             </div>
             <div class="awesome-blocks">
-                
+
                 <div class="awesome-block">
                     <img src="./assets/image/about_icon_1.png" alt="bulb" />
                     <h4 class="awesome-h4">
                         Thoughtful Design
                     </h4>
                     <p class="awesome-h5">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing 
+                        Lorem ipsum dolor sit, amet consectetur adipisicing
                         elit. Ipsam quasi molestiae facilis mollitia doloremque
                         corrupti sapiente perferendis ad aperiam pariatur!
                     </p>
@@ -284,8 +240,8 @@
                         Thoughtful Design
                     </h4>
                     <p class="awesome-h5">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing 
-                        elit. Ipsam quasi molestiae facilis mollitia doloremque 
+                        Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Ipsam quasi molestiae facilis mollitia doloremque
                         corrupti sapiente perferendis ad aperiam pariatur!
                     </p>
                 </div>
@@ -295,11 +251,11 @@
                         Thoughtful Design
                     </h4>
                     <p class="awesome-h5">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing 
-                        elit. Ipsam quasi molestiae facilis mollitia doloremque 
+                        Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Ipsam quasi molestiae facilis mollitia doloremque
                         corrupti sapiente perferendis ad aperiam pariatur!
                     </p>
-                </div>                
+                </div>
             </div>
         </section>
 
@@ -320,7 +276,7 @@
                     <div class="card__name">1 gb of space</div>
                     <div class="card__name">1 gb of space</div>
                     <div class="card__name">1 gb of space</div>
-                    <div class="card__name">1 gb of space</div>                        
+                    <div class="card__name">1 gb of space</div>
                 </div>
                 <div class="cards__card card">
                     <div class="card__name card__name_mod">Optimo</div>
@@ -362,51 +318,51 @@
 
                 <div class="customer__1 customer1">
                     <div class="customer__text">
-                        Lorem ipsum dolor sit amet, 
-                        consectetur adipisicing elit. Doloribus 
-                        accusamus expedita repellat similique 
-                        odio aspernatur ex, architecto eaque 
+                        Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Doloribus
+                        accusamus expedita repellat similique
+                        odio aspernatur ex, architecto eaque
                         quo suscipit.
-                    </div>      
+                    </div>
                     <div class="customer__photo">
                         <img src="./assets/image/customer1.png" alt="Davis Rhiel Madsen">
                         <div class="customer__h4">
                             <h4>Davis Rhiel Madsen</h4>
                             <p>Manager</p>
                         </div>
-                    </div>                   
+                    </div>
                 </div>
                 <div class="customer__1 customer2">
                     <div class="customer__text">
-                        Lorem ipsum dolor sit amet, 
-                        consectetur adipisicing elit. Doloribus 
-                        accusamus expedita repellat similique 
-                        odio aspernatur ex, architecto eaque 
+                        Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Doloribus
+                        accusamus expedita repellat similique
+                        odio aspernatur ex, architecto eaque
                         quo suscipit.
-                    </div>      
+                    </div>
                     <div class="customer__photo">
                         <img src="./assets/image/customer2.png" alt="Jaydon Rosser">
                         <div class="customer__h4">
                             <h4>Jaydon Rosser</h4>
                             <p>Manager</p>
                         </div>
-                    </div>                   
+                    </div>
                 </div>
                 <div class="customer__1 customer3">
                     <div class="customer__text">
-                        Lorem ipsum dolor sit amet, 
-                        consectetur adipisicing elit. Doloribus 
-                        accusamus expedita repellat similique 
-                        odio aspernatur ex, architecto eaque 
+                        Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Doloribus
+                        accusamus expedita repellat similique
+                        odio aspernatur ex, architecto eaque
                         quo suscipit.
-                    </div>      
+                    </div>
                     <div class="customer__photo">
                         <img src="./assets/image/customer3.png" alt="Cooper Dorwart">
                         <div class="customer__h4">
                             <h4>Cooper Dorwart</h4>
-                            <p>Manager</p>  
+                            <p>Manager</p>
                         </div>
-                    </div>                   
+                    </div>
                 </div>
             </div>
             <div class="customer-dots">
@@ -420,8 +376,9 @@
             <div class="design-header">
                 <h1 class="header__h1">STYLISH AXURE DESIGN</h1>
                 <div class="header__line"></div>
-                <p class="header__p">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
-                <input class="design-header__button" type="button" value="Download"/>
+                <p class="header__p">Use the sections you need, remove the ones you don't. Create gorgeous prototypes
+                    faster than ever!</p>
+                <input class="design-header__button" type="button" value="Download" />
             </div>
         </section>
 
@@ -440,7 +397,8 @@
                         <input type="password" class="password textform" placeholder="Password">
                     </div>
                     <div class="form__right">
-                        <textarea name="" id="" cols="65" rows="11" class="textform message"  placeholder="Message"></textarea>
+                        <textarea name="" id="" cols="65" rows="11" class="textform message"
+                            placeholder="Message"></textarea>
                     </div>
                 </div>
                 <input type="submit" value="Send Message" class="tab-content__button">
@@ -469,7 +427,7 @@
                 </button>
                 <button class="slider__btn_rss">
                     <i class="fa-solid fa-rss fa-3x"></i>
-                </button> 
+                </button>
             </div>
             <div class="footer-bottom">
                 <p class="footer-bottom__p">© 2015 Axure Themes</p>
@@ -477,6 +435,12 @@
         </footer>
 
     </main>
+    <script>
+        document.querySelector('.burger-button').addEventListener('click', function(){
+            this.classList.toggle('active');
+            document.querySelector('.navbar-wrap__mobile').classList.toggle('open');
+        })
+    </script>
 </body>
 
 </html>
